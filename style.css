@@ -146,3 +146,23 @@ html {
   text-align: center;
   font-size: 3rem;
 }
+
+.tempmin_max {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #57606f;
+}
+#weathercon {
+  height: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+}
+
+#weathercon .fas {
+  font-size: 6rem;
+  animation: fas-anime 3s linear infinite alternate;
+}
