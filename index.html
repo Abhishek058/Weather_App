@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+  </head>
+  <body>
     <div class="box">
-        <div class="wave -one"></div>
-        <div class="wave -two"></div>
-        <div class="wave -three"></div>
+      <div class="wave -one"></div>
+      <div class="wave -two"></div>
+      <div class="wave -three"></div>
+      <div id="weathericon">
+        <i
+          class="fa fa-sun-o"
+          aria-hidden="true"
+          style="color: rgb(255, 149, 0); font-size: 100px"
+        ></i>
+      </div>
+      <div class="info">
+        <h2 class="location">
+          <i class="fa fa-street-view" aria-hidden="true"></i>
+          Pune,In
+        </h2>
+        <p id="date">WED| OCT 23</p>
+        <h1 class="temp">26.49</h1>
+        <h3 class="tempmin_max">Min 25</h3>
+      </div>
     </div>
-</body>
+  </body>
 </html>
