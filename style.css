@@ -166,3 +166,36 @@ html {
   font-size: 6rem;
   animation: fas-anime 3s linear infinite alternate;
 }
+
+@keyframes fas-anime {
+  from {
+    transform: scale(0.8);
+  }
+
+  to {
+    transform: scale(1.7);
+  }
+}
+
+@media (max-width: 1200px) {
+  .box {
+    width: 90vw;
+    height: 80vh;
+  }
+}
+
+@media (max-height: 500px) {
+  .box {
+    height: 80vh;
+  }
+
+  .wave {
+    top: 115%;
+  }
+}
+
+body > span {
+  width: 100vw;
+  text-align: center;
+  color: grey;
+}
