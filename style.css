@@ -122,3 +122,13 @@ html {
 .fa-street-view {
   animation: rotate 3s linear infinite alternate;
 }
+
+@keyframes rotates {
+  from {
+    transform: translateX(-0.5rem);
+  }
+
+  to {
+    transform: translateX(0.5rem);
+  }
+}
