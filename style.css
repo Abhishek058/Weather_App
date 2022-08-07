@@ -75,64 +75,6 @@ h3 {
   display: block;
   margin: 0.5em 0;
 }
-.box {
-  overflow: hidden;
-}
-
-.wave {
-  opacity: 0.11;
-  position: absolute;
-  top: 150%;
-  background: white;
-  width: 200rem;
-  height: 200rem;
-  margin-left: -60rem;
-  margin-top: -25rem;
-  transform-origin: 50% 48%;
-  border-radius: 43%;
-  animation: drift 3000ms infinite linear;
-  z-index: 1;
-}
-
-.wave-three {
-  position: absolute;
-  top: 150%;
-  background: white;
-  width: 200rem;
-  height: 200rem;
-  margin-left: -60rem;
-  margin-top: -25rem;
-  transform-origin: 50% 48%;
-  border-radius: 43%;
-  animation: drift 5000ms infinite linear;
-  z-index: 2 !important;
-  opacity: 0.13;
-}
-
-.wave-two {
-  position: absolute;
-  top: 150%;
-  background: white;
-  width: 200rem;
-  height: 200rem;
-  margin-left: -60rem;
-  margin-top: -25rem;
-  transform-origin: 50% 48%;
-  border-radius: 43%;
-  animation: drift 7000ms infinite linear;
-  z-index: 3 !important;
-  opacity: 0.1;
-}
-
-@keyframes drift {
-  from {
-    transform: rotate(0deg);
-  }
-
-  from {
-    transform: rotate(360deg);
-  }
-}
 
 .panel {
   position: absolute;
